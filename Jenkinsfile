@@ -6,5 +6,11 @@ pipeline {
         echo 'Hello Jam'
       }
     }
+    stage('JamTest') {
+      steps {
+        echo 'Test Jam'
+        sleep 5
+      }
+    }
   }
 }
